@@ -7,8 +7,6 @@
 	+ http协议
 		+ 各种HTTP Status Code：[http状态码常用对照表](http://tool.oschina.net/commons?type=5)
 		+ [Http头介绍:Expires,Cache-Control,Last-Modified,ETag](http://www.51testing.com/html/28/116228-238337.html)
-		+ 缓存机制
-	+ tcp
 	+ 页面渲染过程
 		1. 渲染过程：[浏览器渲染过程与页面优化](https://segmentfault.com/a/1190000010298038  declaration)
 		2. [css加载会造成阻塞吗？](https://www.cnblogs.com/chenjg/p/7126822.html)
