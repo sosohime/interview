@@ -6,7 +6,7 @@
 + 基础知识
 	+ http协议
 		+ 各种HTTP Status Code：[http状态码常用对照表](http://tool.oschina.net/commons?type=5)
-		+ Request、Response其中各种消息的含义
+		+ [Http头介绍:Expires,Cache-Control,Last-Modified,ETag](http://www.51testing.com/html/28/116228-238337.html)
 		+ 缓存机制
 	+ tcp
 	+ 页面渲染过程
