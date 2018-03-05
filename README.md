@@ -5,9 +5,9 @@
 
 + 基础知识
 	+ http协议
-	    + 各种HTTP Status Code：[http状态码常用对照表](http://tool.oschina.net/commons?type=5)
-	+ Request、Response其中各种消息的含义
-	+ 缓存机制
+		+ 各种HTTP Status Code：[http状态码常用对照表](http://tool.oschina.net/commons?type=5)
+		+ Request、Response其中各种消息的含义
+		+ 缓存机制
 	+ tcp
 	+ 页面渲染过程
 		1. 渲染过程：[浏览器渲染过程与页面优化](https://segmentfault.com/a/1190000010298038  declaration)
