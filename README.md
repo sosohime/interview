@@ -18,7 +18,7 @@
     + 客户端存储
         1. [详细讲述Cookie,LocalStorge,SesstionStorge的区别和用法](https://segmentfault.com/a/1190000007506189)
         2. [session原理](https://segmentfault.com/a/1190000004627894)
-        + indexDB
+        + indexDB 
 
 + Javascript
     + 原型链
