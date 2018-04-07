@@ -96,8 +96,9 @@
 	+ react16新特性
 	    强烈推荐Morgan的这个live[深入理解React v16新功能](https://www.zhihu.com/lives/896398188230103040)
 	    + fiber
-		+ context
-		+ 16.3开始移除三个生命周期（17版本正式移除）
+	    + context
+	    + 16.3开始移除三个生命周期（17版本正式移除）
+	    + 新的生命周期componentDidCatch
 
 + node
 这部分了解不太多，只做过简单尝试，没有什么东西沉淀下来，只能泛泛的谈一下优势、痛点
