@@ -22,7 +22,10 @@
         1. [详细讲述Cookie,LocalStorge,SesstionStorge的区别和用法](https://segmentfault.com/a/1190000007506189)
         2. [session原理](https://segmentfault.com/a/1190000004627894)
         + indexDB 
-    
+    + ajax、axios、fetch
+        1. [传统Ajax已死，fetch当立](https://github.com/camsong/blog/issues/2)
+        2. [fetch的缺点](https://www.cnblogs.com/huilixieqi/p/6494380.html)
+        3. [fetch 没有你想象的那么美](http://undefinedblog.com/window-fetch-is-not-as-good-as-you-imagined/?utm_source=caibaojian.com)
 
 + Javascript
     + 原型链
