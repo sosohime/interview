@@ -21,7 +21,7 @@
     + 客户端存储
         1. [详细讲述Cookie,LocalStorge,SesstionStorge的区别和用法](https://segmentfault.com/a/1190000007506189)
         2. [session原理](https://segmentfault.com/a/1190000004627894)
-        + indexDB 
+        3. indexDB 
     + 线程
     	1. [JavaScript 运行机制详解：再谈Event Loop](http://www.ruanyifeng.com/blog/2014/10/event-loop.html)
     + ajax、axios、fetch
