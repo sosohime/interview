@@ -42,6 +42,7 @@
             一般情况下移动端click都会有300ms延迟。移动浏览器上支持的双击缩放操作，以及IOS Safari 上的双击滚动操作，是导致300ms的点击延迟主要原因。FastClick的实现原理是在检测到touchend事件的时候，会通过DOM自定义事件立即出发模拟一个click事件，并把浏览器在300ms之后真正的click事件阻止掉。
             [解决移动端click事件300ms延迟(fastclick和几个其他方法)](https://www.jianshu.com/p/16d3e4f9b2a9)
 		+ 一些常见兼容问题
+	+ new关键字做了什么，堆和栈，'123'和new String('123')为什么不相等
 	+ this、call、apply
         [js中this关键词详解](https://segmentfault.com/a/1190000003046071)
 	+ 函数式编程
