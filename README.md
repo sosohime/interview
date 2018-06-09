@@ -7,6 +7,9 @@
 	+ http协议
 		1. 各种HTTP Status Code：[http状态码常用对照表](http://tool.oschina.net/commons?type=5)
 		2. [Http头介绍:Expires,Cache-Control,Last-Modified,ETag](http://www.51testing.com/html/28/116228-238337.html)
+		3. HTTP的keep-alive，Tcp的Keepalive，websocket （https://blog.csdn.net/weixin_37672169/article/details/80283935）
+		3. HTTPS、HTTP2
+		4. 浏览器同源策略，跨域
 	+ 客户端缓存
 		1. [浏览器缓存知识小结及应用](http://www.cnblogs.com/lyzg/p/5125934.html?f=t)
 		2. 浏览器三级缓存[由memoryCache和diskCache产生的浏览器缓存机制的思考](https://segmentfault.com/a/1190000011286027)
@@ -30,13 +33,15 @@
 		3. [fetch 没有你想象的那么美](http://undefinedblog.com/window-fetch-is-not-as-good-as-you-imagined/?utm_source=caibaojian.com)
 
 + Javascript
+	+ js语法细节 http://bonsaiden.github.io/JavaScript-Garden/zh/
 	+ 原型链
 		1. [JS重点整理之JS原型链彻底搞清楚](https://zhuanlan.zhihu.com/p/22787302)
         看完上面的再捋一遍下面的
 		2. [JS 原型与原型链终极详解](https://www.jianshu.com/p/dee9f8b14771)
 	+ 数组扩展
+	+ 深浅拷贝
 	+ 事件机制
-		+ 冒泡捕获
+		+ 冒泡捕获,如何阻止冒泡捕获
 		+ 移动端事件
 		+ fastclick
             一般情况下移动端click都会有300ms延迟。移动浏览器上支持的双击缩放操作，以及IOS Safari 上的双击滚动操作，是导致300ms的点击延迟主要原因。FastClick的实现原理是在检测到touchend事件的时候，会通过DOM自定义事件立即出发模拟一个click事件，并把浏览器在300ms之后真正的click事件阻止掉。
@@ -50,7 +55,8 @@
 	+ getter、setter
 		1. [getter、setter方法有什么意义](https://www.zhihu.com/question/21401198)
 		2. [由Vue引发的getter和setter思考](https://www.cnblogs.com/chinajins/p/5996835.html) 
-		3.  [vue深入响应式原理](https://cn.vuejs.org/v2/guide/reactivity.html)
+		3. [vue深入响应式原理](https://cn.vuejs.org/v2/guide/reactivity.html)
+		4. Vue一个问题：组件的生命周期和挂载顺序（多个组件时候呢？）
 	+ es6、es7新特性
 		+ promise、Generator 、async
 		+ set、map
@@ -58,6 +64,8 @@
         [ECMAScript 6 入门 - 阮一峰](https://github.com/ruanyf/es6tutorial)
 	+ 一些常用算法
 		+ 冒泡、快排、洗牌、递归、数组去重……
+	+ 正则
+	+ 谈谈JS面向对象
 	+ jQuery的实现相关问题
 		[jQuery源码剖析（一）——概览&工具方法](https://www.w3ctech.com/topic/256)
 		[jQuery源码剖析（二）——$.Callbacks](https://www.w3ctech.com/topic/257)
@@ -118,7 +126,7 @@
 		+ （node了解不多，还有一堆crud的东西直接说还没学到）
 
 + 其他
-    + 前端优化
+    + 前端优化（优化手段，工具，chrome devtools）
     + 多人协作开发
     + 项目选型
     
