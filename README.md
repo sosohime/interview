@@ -4,6 +4,8 @@
 整理了一下最近面试谈到的问题
 
 + 基础知识
+        + 经典！
+		1. [当你在浏览器中输入 google.com 并且按下回车之后发生了什么](https://github.com/skyline75489/what-happens-when-zh_CN)
 	+ http协议
 		1. 各种HTTP Status Code：[http状态码常用对照表](http://tool.oschina.net/commons?type=5)
 		2. [Http头介绍:Expires,Cache-Control,Last-Modified,ETag](http://www.51testing.com/html/28/116228-238337.html)
@@ -14,7 +16,7 @@
 		1. [浏览器缓存知识小结及应用](http://www.cnblogs.com/lyzg/p/5125934.html?f=t)
 		2. 浏览器三级缓存[由memoryCache和diskCache产生的浏览器缓存机制的思考](https://segmentfault.com/a/1190000011286027)
 	+ 页面渲染过程
-		1. 渲染过程：[浏览器渲染过程与页面优化](https://segmentfault.com/a/1190000010298038  declaration)
+		1. 渲染过程：[浏览器渲染过程与页面优化](https://segmentfault.com/a/1190000010298038)
 		2. [css加载会造成阻塞吗？](https://www.cnblogs.com/chenjg/p/7126822.html)
 	+ 重绘重排（参考上面渲染过程）
 	+ xss、csrf的原理、如何防护
