@@ -4,7 +4,7 @@
 整理了一下最近面试谈到的问题
 
 + 基础知识
-        + 经典！
+	+ 经典！
 		1. [当你在浏览器中输入 google.com 并且按下回车之后发生了什么](https://github.com/skyline75489/what-happens-when-zh_CN)
 	+ http协议
 		1. 各种HTTP Status Code：[http状态码常用对照表](http://tool.oschina.net/commons?type=5)
