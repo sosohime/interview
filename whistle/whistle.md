@@ -38,5 +38,54 @@
   推荐使用chrome插件进行浏览器代理，对其他进程没有影响，并且可以再开另外一个浏览器同时进行其他操作
 
 ## 使用
+whistle的所有操作都可以通过类似如下配置方式实现：
+```
+pattern operatorURI
+// eg:
+http://www.baidu.com  file://C:/test/test.html   //请求百度时返回本地test.html
+```
+
+下面对常用功能进行介绍，# 是注释
+
+全部demo
+```
+# 请求指向本地文件
+# http://manager.tuiatest.cn/qualification/pageQueryAccountQualifications file://C:\duiba\fiddler\test.json
+# http://www.tuiatest.cn/account/getAccountInfo file://C:\duiba\fiddler\temp.json
+
+# manager.tuiatest.cn/qualification/pageQueryAccountQualifications 172.16.80.21
+
+# 请求转发
+# http://manager.tuiatest.cn/ 172.16.80.21
+
+# 使用通配符
+# ^manager.tuiatest.cn/**/**  172.16.80.21/$1/$2
+# http://manager-pre.tuiatest.cn/ 118.31.40.85
+# ^manager.tuiatest.cn/********** 172.16.80.21
+
+# host 
+# http://manager.tuiatest.cn/ 127.0.0.1:17789
+# http://manager.tuiatest.cn/ 172.16.80.21
+# 使用正则
+# ^http://manager.tuiatest.cn/$ 127.0.0.1:17789/
+# ^http://manager-pre.tuia.cn/$ 127.0.0.1:17789/
+
+# 注入
+# http://manager.tuiatest.cn/ js://C:\duiba\fiddler\test.js
+# http://manager.tuiatest.cn/ css://C:\duiba\fiddler\test.css
+# http://manager.tuiatest.cn/ html://C:\duiba\fiddler\test.html
+
+# host
+# http://www.tuiatest.cn 127.0.0.1:8080
+
+# http://manager.tuiatest.cn/homePage/queryAdvertData 172.16.80.22
+
+
+### 页面代理到本地
+# ^http://manager.tuiatest.cn/$ 127.0.0.1:17789/
+
+### 接口用测试
+# ^manager.tuiatest.cn/********** 172.16.80.21
+```
 
   
