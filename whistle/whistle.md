@@ -52,6 +52,7 @@ http://www.baidu.com  file://C:/test/test.html   //请求百度时返回本地te
 # 请求指向本地文件
 # http://manager.tuiatest.cn/qualification/pageQueryAccountQualifications file://C:\duiba\fiddler\test.json
 # http://www.tuiatest.cn/account/getAccountInfo file://C:\duiba\fiddler\temp.json
+# http://yun.tuia.cn/tuia/tuia-advert-manager-node/dist/2d197a212f957aeea478.aptitude.js file://C:\duiba\fiddler\aptitude.js
 
 # manager.tuiatest.cn/qualification/pageQueryAccountQualifications 172.16.80.21
 
@@ -128,4 +129,11 @@ http://manager.tuiatest.cn/qualification/pageQueryAccountQualifications file://C
 http://manager.tuiatest.cn/ js://C:\duiba\fiddler\test.js
 http://manager.tuiatest.cn/ css://C:\duiba\fiddler\test.css
 http://manager.tuiatest.cn/ html://C:\duiba\fiddler\test.html
+```
+
+#### 5.修改线上资源方便本地调试
+将请求的静态资源直接指向本地文件，方式与接口使用本地mock数据一样，不过文件换成了js\html等等，代理后可以修改本地文件进行调试
+```
+# 使用本地js
+http://yun.tuia.cn/tuia/tuia-advert-manager-node/dist/2d197a212f957aeea478.aptitude.js file://C:\duiba\fiddler\aptitude.js
 ```
