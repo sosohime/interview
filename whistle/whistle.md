@@ -35,7 +35,7 @@
 
   具体安装过程参考中文文档：[安装启动](http://wproxy.org/whistle/install.html)
 
-  推荐使用chrome插件进行浏览器代理，对其他进程没有影响，并且可以再开另外一个浏览器同时进行其他操作
+  推荐使用chrome插件（[SwitchyOmega](https://chrome.google.com/webstore/detail/padekgcemlokbadohgkifijomclgjgif) -- chrome商店，需要科学上网）进行浏览器代理，对其他进程没有影响，并且可以再开另外一个浏览器同时进行其他操作
 
 ## 使用
 whistle的所有操作都可以通过类似如下配置方式实现：
@@ -66,6 +66,7 @@ http://www.baidu.com  file://C:/test/test.html   //请求百度时返回本地te
 # host 
 # http://manager.tuiatest.cn/ 127.0.0.1:17789
 # http://manager.tuiatest.cn/ 172.16.80.21
+
 # 使用正则
 # ^http://manager.tuiatest.cn/$ 127.0.0.1:17789/
 # ^http://manager-pre.tuia.cn/$ 127.0.0.1:17789/
@@ -77,7 +78,6 @@ http://www.baidu.com  file://C:/test/test.html   //请求百度时返回本地te
 
 # host
 # http://www.tuiatest.cn 127.0.0.1:8080
-
 # http://manager.tuiatest.cn/homePage/queryAdvertData 172.16.80.22
 
 
@@ -88,4 +88,44 @@ http://www.baidu.com  file://C:/test/test.html   //请求百度时返回本地te
 # ^manager.tuiatest.cn/********** 172.16.80.21
 ```
 
-  
+#### 1.测试环境调用本地接口
+后端同学平时在改需求的时候需要前端页面方便调试，但是本地起前端项目或者找前端同学帮开还可能有沟通成本。
+用postman的话不直观，操作也比较麻烦。
+这时可以连测试库，然后用测试机的页面，通过whistle拦截请求，转发到本地，就可以实现用测试环境前端调试了（其他环境同理）
+
+配置如下：
+```
+### 接口用测试
+#### 指向某台服务器
+^manager.tuiatest.cn/********** 172.16.80.21
+#### 指向本地
+^manager.tuiatest.cn/********** 127.0.0.1:17789
+```
+
+#### 2.接口直接使用本地mock数据
+是否遇到过本地ok，发到线上就有问题的情况呢？调试困难、重现困难，非常头疼。
+可以通过whistle直接在线上环境使用本地的js\mock数据进行调试，极大地提高了开发体验。
+
+配置如下：
+```
+# 请求指向本地文件
+http://manager.tuiatest.cn/qualification/pageQueryAccountQualifications file://C:\duiba\fiddler\test.json
+```
+
+#### 3.使用Composer直接构造请求
+在进行复杂步骤需求的时候可能遇到这种问题：页面上连续点了好多下，最终达到目标接口，调了一下又要重新操作一次。
+这时可以使用Composer功能，像postman一样，直接修改入参，调用接口。
+
+![](./imgs/composer.png)
+![](./imgs/composer2.png)
+
+#### 4.注入
+拦截页面，直接注入html\js\css，方便对线上进行注入<del>攻击</del>调试
+
+配置如下：
+```
+# 注入
+http://manager.tuiatest.cn/ js://C:\duiba\fiddler\test.js
+http://manager.tuiatest.cn/ css://C:\duiba\fiddler\test.css
+http://manager.tuiatest.cn/ html://C:\duiba\fiddler\test.html
+```
