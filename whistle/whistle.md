@@ -15,7 +15,7 @@
 
 ## 安装
 
-  安装启动whistle，需要以下四个步骤： 安装Node、安装whistle、启动whistle、配置代理。
+  安装启动whistle，需要以下四个步骤： 安装Node（推荐v6+）、安装whistle、启动whistle、配置代理。
   ```
   // 下面步骤以win为例，mac用户自行补全命令
   // eg:
