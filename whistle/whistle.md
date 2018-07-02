@@ -26,7 +26,7 @@
 
   另：npm默认镜像是在国外，有时候安装速度很慢或者出现安装不了的情况可以开启代理，如果无法安装或者安装很慢，可以使用taobao的镜像安装：
   ```
-  // 换源
+  // 换源（推荐）
   npm config set registry https://registry.npm.taobao.org
 
   // 或者直接指定镜像安装：
