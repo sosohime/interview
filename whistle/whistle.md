@@ -87,6 +87,10 @@ http://www.baidu.com  file://C:/test/test.html   //请求百度时返回本地te
 
 ### 接口用测试
 # ^manager.tuiatest.cn/********** 172.16.80.21
+
+### 使用指定机器页面，使用测试接口
+# ^http://manager.tuiatest.cn/$ 192.168.61.49:17789/
+# ^manager.tuiatest.cn/********** 172.16.80.21
 ```
 
 #### 1.测试环境调用本地接口
