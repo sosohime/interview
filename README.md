@@ -64,6 +64,8 @@
 		+ set、map
 		+ class和原型链
         [ECMAScript 6 入门 - 阮一峰](https://github.com/ruanyf/es6tutorial)
+	+ 模块化
+				[JS模块规范：AMD、UMD、CMD、commonJS、ES6 module](https://segmentfault.com/a/1190000012419990)
 	+ 一些常用算法
 		+ 冒泡、快排、洗牌、递归、数组去重……
 	+ 正则
