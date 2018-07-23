@@ -120,7 +120,9 @@
 
 + node
 这部分了解不太多，只做过简单尝试，没有什么东西沉淀下来，只能泛泛的谈一下优势、痛点
-	+ react服务端渲染(ssr)
+	+ react服务端渲染(ssr)\同构(isomorphic)
+		+ [如何使用React构建同构应用](http://bbs.51cto.com/thread-1518010-1.html)
+		+ [一看就懂的React Server Rendering(Isomorphic Javascript) 入门教学](https://blog.techbridge.cc/2016/08/27/react-redux-immutablejs-node-server-isomorphic-tutorial/)
 	+ express和koa、koa2的区别
 	+ 常用中间件
 		+ proxy
