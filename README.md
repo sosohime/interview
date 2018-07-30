@@ -85,7 +85,7 @@
 
   这一块基本上是不会问太多怪问题的，如果问到的话基本就两块：
   1. 根据一些场景来讲一讲webpack的优势，解决了什么问题，比如前端一些优化点、公共组件打包vendors、文件压缩、模块化、对es6的支持、文件差异对比。
-  2. 一些基本的配置，常用的插件（一裤兜子loader、CommonsChunkPlugin、HashedModuleIdsPlugin、UglifyJsPlugin），会涉及到一些基本的node组件（express、fs、os、process等）
+  2. 一些基本的配置，常用的插件（一裤兜子loader、CommonsChunkPlugin、HashedModuleIdsPlugin、UglifyJsPlugin），会涉及到一些基本的node相关的东西（express、fs、os、process等）
   + 发展过程、目的
     + grunt、glup到webpack
   + webpack [webpack概念--webpack中文网](https://www.webpackjs.com/concepts/)
