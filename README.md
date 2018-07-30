@@ -116,7 +116,9 @@
     + 在一个生命周期里面可能多次setState怎么做
     + setState第二个参数
   + redux、mobx
-    这个看官方文档吧，什么redux三大原则，设计思路，然后需要讲一下redux和mobx的差异、优劣
+    + 看一下官方文档，什么redux三大原则，设计思路，然后需要讲一下redux和mobx的差异、优劣
+    + [Redux or Mobx --前端应用状态管理方案的探索与思考](https://www.jianshu.com/p/a52e896f8c8f)
+    + [我为什么从Redux迁移到了Mobx](https://segmentfault.com/a/1190000012209750)
   + react-router
   + 状态保存
   + react16新特性
