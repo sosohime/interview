@@ -43,6 +43,8 @@
     1. [JS重点整理之JS原型链彻底搞清楚](https://zhuanlan.zhihu.com/p/22787302)
         看完上面的再捋一遍下面的
     2. [JS 原型与原型链终极详解](https://www.jianshu.com/p/dee9f8b14771)
+        再看完上面的以后仔细阅读一下下面的，发现还是w3c讲得好
+    3. [ECMAScript 继承机制实现](http://www.w3school.com.cn/js/pro_js_inheritance_implementing.asp)
   + 闭包
   + 柯里化、函数式编程
     + [从一道面试题谈谈函数柯里化(Currying)](https://cnodejs.org/topic/5884574e250bf4e2390e9e99)
