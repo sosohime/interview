@@ -17,6 +17,7 @@
   + 客户端缓存
     1. [浏览器缓存知识小结及应用](http://www.cnblogs.com/lyzg/p/5125934.html?f=t)
     2. 浏览器三级缓存[由memoryCache和diskCache产生的浏览器缓存机制的思考](https://segmentfault.com/a/1190000011286027)
+    3. [彻底理解浏览器的缓存机制](https://www.cnblogs.com/duiniweixiao/p/8884274.html)
   + 页面渲染过程
     1. 渲染过程：[浏览器渲染过程与页面优化](https://segmentfault.com/a/1190000010298038)
     2. [css加载会造成阻塞吗？](https://www.cnblogs.com/chenjg/p/7126822.html)
@@ -118,7 +119,9 @@
     + 在一个生命周期里面可能多次setState怎么做
     + setState第二个参数
   + redux、mobx
-    这个看官方文档吧，什么redux三大原则，设计思路，然后需要讲一下redux和mobx的差异、优劣
+    + 看一下官方文档，什么redux三大原则，设计思路，然后需要讲一下redux和mobx的差异、优劣
+    + [Redux or Mobx --前端应用状态管理方案的探索与思考](https://www.jianshu.com/p/a52e896f8c8f)
+    + [我为什么从Redux迁移到了Mobx](https://segmentfault.com/a/1190000012209750)
   + react-router
   + 状态保存
   + react16新特性
