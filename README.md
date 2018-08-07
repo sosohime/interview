@@ -98,6 +98,8 @@
     + mock、proxy
     + eslint
     + 各种loader
+  + 资源优化
+    + [用增量更新算法为 web 应用节省流量](https://www.ibm.com/developerworks/cn/web/1401_luyf_reducejs/)
 
 + react
 
