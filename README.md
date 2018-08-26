@@ -37,6 +37,18 @@
     2. [fetch的缺点](https://www.cnblogs.com/huilixieqi/p/6494380.html)
     3. [fetch 没有你想象的那么美](http://undefinedblog.com/window-fetch-is-not-as-good-as-you-imagined/?utm_source=caibaojian.com)
 
++ CSS\CSS3\HTML
+  + 块级元素垂直居中、行内元素垂直居中
+  + Flex
+  + 移动端布局的几种常见方式
+    + rem + 动态计算root的font-size
+    + flex
+    + bootstrap\媒体查询
+  + BFC、清除浮动方式
+  + animate @keyframe cubic-bezier
+  + 6个absolute的div实现个正方体，然后再支持旋转
+  + html5新特性
+
 + Javascript
 
   + js语法细节 http://bonsaiden.github.io/JavaScript-Garden/zh/
@@ -104,7 +116,7 @@
 + react
 
   + 为什么选择react
-    vdom性能好、组件化开发、全面拥抱es6es7、社区强大、混合开发有rn、还有reactVR……
+    vdom性能、组件化开发、全面拥抱es6es7、社区强大、混合开发有rn、还有reactVR……
   + 为什么不选择react
     做seo要node中间层，要写node难度陡增；团队技术栈限制，项目大，会的人少
   + 生命周期
@@ -113,25 +125,31 @@
     + Q: 异步请求在哪个周期发合适？A:根据请求目的来谈一下，初始化数据还是异步交互还是不用redux的情况下父组件通知子组件更新
   + diff算法
     [React 源码剖析系列 － 不可思议的 react diff](https://zhuanlan.zhihu.com/p/20346379)
-    + 复杂度o(n)怎么做到的：因为父节点dirty了就不比子节点了，直接用新的替换，所以一层一层横向比下来就是o(n) 
+    + 复杂度o(n)怎么做到的：因为父节点dirty了就不比子节点了，直接用新的替换，所以一层一层横向比下来就是o(n)
     + key是干嘛的：比如一个ul发生了改变，里面有key的会在diff算法中进行比较，相同的话直接或者改变顺序，然后copy到新tree里面，提高性能
   + setState
     [React 源码剖析系列 － 解密 setState](https://zhuanlan.zhihu.com/p/20328570)这个地方看明白点，名词咔咔一顿记，面试的时候狂拽名词然后再用汉语解释一下，一般面试官都懵逼
     + 为什么是异步的
     + 在一个生命周期里面可能多次setState怎么做
-    + setState第二个参数
+    + setState({}); setState(() =>{}); setState({}, () =>{})
   + redux、mobx
     + 看一下官方文档，什么redux三大原则，设计思路，然后需要讲一下redux和mobx的差异、优劣
     + [Redux or Mobx --前端应用状态管理方案的探索与思考](https://www.jianshu.com/p/a52e896f8c8f)
     + [我为什么从Redux迁移到了Mobx](https://segmentfault.com/a/1190000012209750)
   + react-router
   + 状态保存
+  + react性能优化
+    + 异步路由、异步组件
+    + 使用无状态组件
+    + shouldComponentUpdate
+    + PureComponent
+    + immutable.js
   + react16新特性
     强烈推荐Morgan的这个live[深入理解React v16新功能](https://www.zhihu.com/lives/896398188230103040)
     + fiber
     + context
     + 16.3开始移除三个生命周期（17版本正式移除）
-    + 新的生命周期componentDidCatch
+    + 新的生命周期componentDidCatch、getSnapshotBeforeUpdate
 
 + node
 
