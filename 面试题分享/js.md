@@ -3,11 +3,11 @@
 ```javascript
 // 写出输出
 var num1 = 1
+func1()
 function func1(){
   console.log(num1, num2, num3)
 }
 var num2 = 2
-func1()
 func2()
 var func2 = function(){
   console.log(num1, num2, num3)
