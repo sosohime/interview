@@ -35,15 +35,16 @@
 2. 常用标签，哪些是块级、那些是行内
 3. 行内元素水平居中
 4. 垂直居中的几种写法
-5. CSS3新特性
-6. CSS3动画优化
-7. 常用移动端布局方式(rem、flex、媒体查询、高清方案、vw、百分比)
-8. 写几种常见布局，用多种方案实现(css(3) \ css + js \ flex)
-9. less、less计算、继承
-10. css-modules
-11. translate3d、实现个立方体(静态)，然后加上js实现旋转
-12. 贝塞尔曲线
-13. 兼容iphoneX的方案(GTMDPGG)
+5. css选择器[. #  + > nth-child(n + x)]、权重
+6. CSS3新特性
+7. CSS3动画优化
+8. 常用移动端布局方式(rem、flex、媒体查询、高清方案、vw、百分比)
+9. 写几种常见布局，用多种方案实现(css(3) \ css + js \ flex)
+10. less、less计算、继承
+11. css-modules
+12. translate3d、实现个立方体(静态)，然后加上js实现旋转
+13. 贝塞尔曲线
+14. 兼容iphoneX的方案(GTMDPGG)
 
 ## Javascript
 
