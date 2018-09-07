@@ -28,6 +28,9 @@
 6. canvas、svg
 7. postMessage
 8. webWorker、webScoket
+9. shadowDom
+10. Web-Component
+11. PWA、serviceWorker
 
 ## CSS
 
@@ -36,15 +39,16 @@
 3. 行内元素水平居中
 4. 垂直居中的几种写法
 5. css选择器[. #  + > nth-child(n + x)]、权重
-6. CSS3新特性
-7. CSS3动画优化
-8. 常用移动端布局方式(rem、flex、媒体查询、高清方案、vw、百分比)
-9. 写几种常见布局，用多种方案实现(css(3) \ css + js \ flex)
-10. less、less计算、继承
-11. css-modules
-12. translate3d、实现个立方体(静态)，然后加上js实现旋转
-13. 贝塞尔曲线
-14. 兼容iphoneX的方案(GTMDPGG)
+6. BFC了解一下、清除浮动的方式
+7. CSS3新特性
+8. CSS3动画优化
+9. 常用移动端布局方式(rem、flex、媒体查询、高清方案、vw、百分比)
+10. 写几种常见布局，用多种方案实现(css(3) \ css + js \ flex)
+11. less、less计算、继承
+12. css-modules
+13. translate3d、实现个立方体(静态)，然后加上js实现旋转
+14. 贝塞尔曲线
+15. 兼容iphoneX的方案(GTMDPGG)
 
 ## Javascript
 
@@ -64,6 +68,7 @@
 14. 数组去重
 15. 判断是否对象\数组
 16. 浏览器对js的默认优化行为
+17. 操作数组的方法，那些会改变原数组，每个方法的返回值都是什么
 
 ### jQuery
 
