@@ -14,6 +14,7 @@
     3. HTTP的keep-alive，Tcp的Keepalive，websocket [浅谈Http长连接和Keep-Alive以及Tcp的Keepalive](https://blog.csdn.net/weixin_37672169/article/details/80283935)
     4. HTTPS、HTTP2
   + 浏览器同源策略，跨域
+    1. 常见的跨域解决方式（Access-Control-Allow-Origin: *、jsonp、nginx反向代理）
   + 客户端缓存
     1. [浏览器缓存知识小结及应用](http://www.cnblogs.com/lyzg/p/5125934.html?f=t)
     2. 浏览器三级缓存[由memoryCache和diskCache产生的浏览器缓存机制的思考](https://segmentfault.com/a/1190000011286027)
@@ -48,6 +49,7 @@
   + animate @keyframe cubic-bezier
   + 6个absolute的div实现个正方体，然后再支持旋转
   + html5新特性
+  + SVG（简单实现一些css不好实现的效果，比如复杂加载动画）
 
 + Javascript
 
@@ -161,9 +163,10 @@
   + 常用中间件
     + proxy
     + compression
-    + 静态资源处理
-    + session持久化
-    + （node了解不多，还有一堆crud的东西直接说还没学到）
+    + request
+    + async
+    + mysql
+    + redis
 
 + 其他
   + shadowDom
