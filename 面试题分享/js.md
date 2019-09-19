@@ -31,7 +31,7 @@ console.log(4)
 // 写出输出
 for(var i = 0; i < 5; i++) {
   var o = i
-  (function(){
+  ;(function(){
     var p = i;
     setTimeout(() => {
       console.log(i, o, p)
@@ -53,7 +53,7 @@ add(1)(2)(3) // 6
 // Cat继承于Animal
 // var animal = new Animal()
 // animal.getType() // I am animal
-// anmial.getName() // I don't konw
+// animal.getName() // I don't konw
 
 // var cat = new Cat('yaoyao')
 // cat.getType() // i am animal
