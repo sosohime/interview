@@ -1,6 +1,6 @@
-# 菜狗页面仔面经
+# 菜狗切图仔面经
 
-> 2018新的开始，不要再混了
+> 2020新的开始，不要再混了
 
 整理了一下最近面试谈到的问题
 
@@ -88,6 +88,7 @@
     + class和原型链
       [ECMAScript 6 入门 - 阮一峰](https://github.com/ruanyf/es6tutorial)
     + 装饰器[ES7 Decorator装饰器](https://segmentfault.com/p/1210000009968000/read)
+    + [《深入理解ES6》教程学习笔记](https://github.com/hyy1115/ES6-learning)
   + 模块化
     [JS模块规范：AMD、UMD、CMD、commonJS、ES6 module](https://segmentfault.com/a/1190000012419990)
   + 一些常用算法
@@ -114,6 +115,10 @@
     + 各种loader
   + 资源优化
     + [用增量更新算法为 web 应用节省流量](https://www.ibm.com/developerworks/cn/web/1401_luyf_reducejs/)
+  + monorepo [精读《Monorepo 的优势》](https://zhuanlan.zhihu.com/p/65533186)
+  + Typescript
+    + [TypeScript手册](https://zhuanlan.zhihu.com/p/82877006)
+    + [ts-node](https://github.com/TypeStrong/ts-node)
 
 + react
 
@@ -146,16 +151,26 @@
     + shouldComponentUpdate
     + PureComponent
     + immutable.js
+    + reselect
+    + immer.js
   + react16新特性
     强烈推荐Morgan的这个live[深入理解React v16新功能](https://www.zhihu.com/lives/896398188230103040)
     + fiber
     + context
     + 16.3开始移除三个生命周期（17版本正式移除）
     + 新的生命周期componentDidCatch、getSnapshotBeforeUpdate
+    + hooks, hooks lib
+      + https://kentcdodds.com/blog/usememo-and-usecallback
+      + https://zhuanlan.zhihu.com/fefame
+      + https://github.com/ant-design/sunflower
+      + https://www.zhihu.com/question/350523308/answer/858145147
+      + https://github.com/streamich/react-use
+      + https://github.com/immerjs/use-immer
+      + https://github.com/umijs/hooks
+      + https://github.com/ecomfe/react-hooks
 
 + node
 
-  这部分了解不太多，只做过简单尝试，没有什么东西沉淀下来，只能泛泛的谈一下优势、痛点
   + react服务端渲染(ssr)\同构(isomorphic)
     + [如何使用React构建同构应用](http://bbs.51cto.com/thread-1518010-1.html)
     + [一看就懂的React Server Rendering(Isomorphic Javascript) 入门教学](https://blog.techbridge.cc/2016/08/27/react-redux-immutablejs-node-server-isomorphic-tutorial/)
@@ -167,17 +182,30 @@
     + async
     + mysql
     + redis
+  + puppeteer
+  + 内存处理
+    + 根据服务实际情况分配内存大小 max-old-space-size [Can we document --max_old_space_size or is it deprecated? #7937](https://github.com/nodejs/node/issues/7937?from=from_parent_docs#issuecomment-269997873)
+    + 下载文件考虑场景，可以直接pipe到磁盘文件上，避免高并发下全部存到内存中导致oom
 
 + 其他
-  + shadowDom
+
+  + GraphQL、BFF
+    + [什么是 GraphQL](https://www.zhihu.com/question/264629587/answer/949588861)
+    + [GraphQL学习指南](https://juejin.im/post/5c3d54096fb9a049c04346db)
+  + WebAssembly
+    + [有哪些效果拔群的 WebAssembly 应用？](https://www.zhihu.com/question/265700379/answer/951118579) 
+    + [这可能是世界上最简单的用 Go 来写 WebAssembly 的教程](https://zhuanlan.zhihu.com/p/149266343)
+  + hadoop \ clickhouse \ hive
+    + [解决Hadoop的短板，实时大数据分析引擎ClickHouse解析](https://cloud.tencent.com/developer/article/1170540)
+  + mq [消息队列Kafka、RocketMQ、RabbitMQ的优劣势比较](https://zhuanlan.zhihu.com/p/60288391)
   + Flutter
+  + shadowDom
   + 前端优化（优化手段，工具，chrome devtools）
-  + 多人协作开发
-  + 项目选型
+  + 图形处理
+    + [skia](https://github.com/google/skia)
+  + gitflow [git-recipes](https://github.com/geeeeeeeeek/git-recipes)
 
 ------
-暂时就回忆起这么多，每个问题基本都有细节可以扩展，后面再更新
-
 thanks to [@houxd1992](https://github.com/houxd1992)
 
 ## END
