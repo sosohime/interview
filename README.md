@@ -13,6 +13,8 @@
     2. [Http头介绍:Expires,Cache-Control,Last-Modified,ETag](http://www.51testing.com/html/28/116228-238337.html)
     3. HTTP的keep-alive，Tcp的Keepalive，websocket [浅谈Http长连接和Keep-Alive以及Tcp的Keepalive](https://blog.csdn.net/weixin_37672169/article/details/80283935)
     4. HTTPS、HTTP2
+    5. 浏览器http并发请求数 [浏览器 HTTP 并发请求规则探讨](https://sanonz.github.io/2018/http-max-persistent-connections-per-server/)
+      https://chromium.googlesource.com/chromium/src/+/refs/tags/85.0.4178.4/net/socket/client_socket_pool_manager.cc#47
   + 浏览器同源策略，跨域
     1. 常见的跨域解决方式（Access-Control-Allow-Origin: *、jsonp、nginx反向代理）
   + 客户端缓存
