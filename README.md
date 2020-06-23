@@ -17,6 +17,9 @@
       https://chromium.googlesource.com/chromium/src/+/refs/tags/85.0.4178.4/net/socket/client_socket_pool_manager.cc#47
   + 浏览器同源策略，跨域
     1. 常见的跨域解决方式（Access-Control-Allow-Origin: *、jsonp、nginx反向代理）
+    2. SameSite默认Lax导致的问题
+       - [SameSite=None 升级指南](https://juejin.im/post/5e72441b51882549003d39c2)
+       - https://web.dev/samesite-cookies-explained/
   + 客户端缓存
     1. [浏览器缓存知识小结及应用](http://www.cnblogs.com/lyzg/p/5125934.html?f=t)
     2. 浏览器三级缓存[由memoryCache和diskCache产生的浏览器缓存机制的思考](https://segmentfault.com/a/1190000011286027)
