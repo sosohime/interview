@@ -165,6 +165,8 @@
   - 问: 堆与栈
   - 问: new的过程发生了什么，手写一个new
   - 问: 手写bind、call、apply
+    - [JavaScript深入之new的模拟实现](https://github.com/mqyqingfeng/Blog/issues/13)
+    - [JavaScript深入之bind的模拟实现](https://github.com/mqyqingfeng/Blog/issues/12)
   - 问: 原型和原型链
   - 问: ES5实现继承
   - 问: Set \ Map 区别，map \ {} 区别
