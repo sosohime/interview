@@ -108,6 +108,7 @@
         - 基于服务端：Websocket / Comet / SSE 等
         - 对于非同源页面，则可以通过嵌入同源 iframe 作为“桥”，将非同源页面通信转换为同源页面通信。
     - 问: e.target、e.currentTarget的区别
+      - target是触发事件的对象，currentTarget是事件绑定的帝乡
     - 问: onerror 和 addEventlistener('error')区别
     - 问: 外链加载失败用哪个判断
       - [前端代码错误上报](https://juejin.im/post/6844903806849777677)
@@ -197,6 +198,8 @@
   - Type-challenges: <https://github.com/type-challenges/type-challenges>
 
 - React
+  推荐阅读[React技术揭秘](https://react.iamkasong.com/)，除了事件机制之外，其他方面描述的都非常详细，包括react架构演进过程、fiber、lane、diff、hooks等，并有源码解析。
+
   - 问: React生命周期
     - 注意区分16.3开始引入的`getDerivedStateFromProps`、`getDerivedStateFromProps`，以及转为`UNSAFE`的`componentWillReceiveProps``componentWillMount``componentWillUpdate`。因为Fiber的引入，render变为async，render之前的生命周期都可能执行多次，进而导致多余计算、网络请求等一些列问题（后面有关于Fiber的相关问题）。
     - [React v16.3之后的组件生命周期函数](https://zhuanlan.zhihu.com/p/38030418)
@@ -269,12 +272,11 @@
   - 问: Webpack \ Rollup区别
     - TODO:
   - 问: 如何减少webpack打包时间、产物体积
-    - TODO:
-    - webpack5之前
-      - external外部依赖库（echarts，map等）
-      - 开启多线程，happyPack
-      - 固定依赖库打包DLL
-      - 缓存hard-source-webpack-plugin
+    - external外部依赖库（echarts，map等）
+    - 开启多线程，happyPack
+    - 固定依赖库打包DLL
+    - 缓存hard-source-webpack-plugin
+    - esbuild-loader, [esbuild](https://github.com/evanw/esbuild)
   - 问: snowpack为什么比webpack快
     - TODO:
   - 问: Vite
@@ -290,8 +292,7 @@
   - 问: 单元测试框架
     - TODO:
   - 问: 如何部署前端项目
-  - 问: 如何提高构建速度
-    - <https://github.com/evanw/esbuild>
+    - TODO:
   - 问: 如何开发一个CLI
     - [从零开发一个Node Cli](https://juejin.cn/post/6844904080830103560)
   - 问: 持续集成（CI/CD）
