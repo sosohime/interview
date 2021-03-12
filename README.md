@@ -174,6 +174,10 @@
   - 问: WeekSet \ WeekMap是干嘛的
   - 问: Symbol是什么，用途
   - 问: for in \ for of
+  - 问: Promise/A+规范，实现一个promise
+    - [Promises/A+](https://promisesaplus.com/)
+    - [简单实现Promise](https://imweb.io/topic/5bbc264b6477d81e668cc930)
+    - [Promise的源码实现（完美符合Promise/A+规范）](https://github.com/YvetteLau/Blog/issues/2)
   - 问: 防抖节流
   - 问: 大数计算
   - 问: 哪些可能会引发内存泄露
@@ -255,6 +259,7 @@
     - 若果props是一个对象，使用immutable类库 + Purecomonent来减少渲染
     - 尽量减少箭头函数在render中的使用
     - 依赖收集
+    - 使用React DevTools Profiler查看react组件渲染火焰图，找到耗时大的组件进行分析
   - 问: Preact
 
 - 移动端
@@ -272,11 +277,12 @@
   - 问: Webpack \ Rollup区别
     - TODO:
   - 问: 如何减少webpack打包时间、产物体积
+    - 使用speed-measure-webpack-plugin分析打包时间，找到耗时长的部分逐个优化
     - external外部依赖库（echarts，map等）
     - 开启多线程，happyPack
     - 固定依赖库打包DLL
     - 缓存hard-source-webpack-plugin
-    - esbuild-loader, [esbuild](https://github.com/evanw/esbuild)
+    - esbuild-loader，代替ts-loader / babel-loader, [esbuild](https://github.com/evanw/esbuild)
   - 问: snowpack为什么比webpack快
     - TODO:
   - 问: Vite
