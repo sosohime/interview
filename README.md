@@ -172,6 +172,7 @@
     - [JavaScript深入之bind的模拟实现](https://github.com/mqyqingfeng/Blog/issues/12)
   - 问: 原型和原型链
   - 问: ES5实现继承
+    - 各种继承的问题，手写个寄生组合式继承
   - 问: Set \ Map 区别，map \ {} 区别
   - 问: WeekSet \ WeekMap是干嘛的
   - 问: Symbol是什么，用途
