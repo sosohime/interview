@@ -116,9 +116,11 @@
 
     - 问: Event Loop
     - 问: 什么是宏任务、微任务
+      - 这一篇强烈推荐：讲解了用户触发事件和js事件的区别，并且讲了Mutation等，非常的清晰，[Tasks, microtasks, queues and schedules](https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/)
       - [如何解释Event Loop面试官才满意](https://zhuanlan.zhihu.com/p/72507900)
       - [了解js运行机制——微任务与宏任务](https://juejin.cn/post/6844903859949830158)
       - [Eventloop不可怕，可怕的是遇上Promise](https://juejin.cn/post/6844903808200343559)
+
     - 问: requestAnimationFrame \ requestIdleCallback
       - [神奇的requestAnimationFrame](https://segmentfault.com/a/1190000012175376)
       - [熟悉requestidlecallback到了解react requestidlecallback polyfill实现](https://www.jianshu.com/p/182e91a7df59)
