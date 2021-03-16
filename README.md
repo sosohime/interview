@@ -172,6 +172,7 @@
     - [JavaScript深入之bind的模拟实现](https://github.com/mqyqingfeng/Blog/issues/12)
   - 问: 原型和原型链
   - 问: ES5实现继承
+    - 各种继承的问题，手写个寄生组合式继承
   - 问: Set \ Map 区别，map \ {} 区别
   - 问: WeekSet \ WeekMap是干嘛的
   - 问: Symbol是什么，用途
@@ -244,7 +245,7 @@
   - 问: 防抖节流用hooks实现
     - TODO:
   - 问: react-router实现原理
-    - TODO:
+    - [「源码解析 」这一次彻底弄懂react-router路由原理](https://juejin.cn/post/6886290490640039943)
 
   - 问: redux中间件是什么，用过哪些
   - 问: redux-saga \ redux-thunk 是什么，区别是什么
@@ -274,6 +275,19 @@
   - 问: Webpack中loader和plugin的区别是什么
   - 问: 如何编写Webpack load和plugin
     - [webpack 之 loader 和 plugin 简介](https://juejin.im/post/6844903489458405390)
+  - 问: 常用的webpack loader、plugin
+    - loader
+      - 静态资源（webpack5提供了处理静态资源的文件，可以不用这些loader）：raw-loader（文件转字符串模块导入）、file-loader（文件打包到输出目录）、url-loader（文件转base64导入）
+      - babel-loader + babel/preset-typescript \ ts-loader + babel-loader + fork-ts-checker-webpack-plugin [Webpack 转译 Typescript 现有方案](https://juejin.cn/post/6844904052094926855)
+      - esbuild-loader
+      - postcss-loader（添加浏览器前缀）
+    - plugin
+      - html-webpack-plugin
+      - optimize-css-assets-webpack-plugin \ css-minimizer-webpack-plugin （压缩优化css，后者使用cssnano）
+      - extract-text-webpack-plugin（静态资源处理，如css提取为文件）
+      - prepack-webpack-plugin（使用prepack进行语法分析，减少文件体积，webpack5内置部分能力）
+      - workbox-webpack-plugin (启用serverWorker)
+      - hard-source-webpack-plugin（模块中间缓存，提高构建速度，webpack5提供filesystem作为默认支持）
   - 问: Babel是怎么将文件解析成AST，进行词法分析转换的
     - [https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/315](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/315)
   - 问: Webpack \ Rollup区别
@@ -366,6 +380,7 @@
   - 问: supervisor or pm2, why
   - 问: `fork mode`和`cluster mode`的区别
   - 问: express、koa
+    - koa洋葱模型实现，为什么采用洋葱模型[深入理解洋葱模型中间件机制](https://juejin.cn/post/6844904025767280648)
     - TODO:
 
   - 问: Redis数据结构，使用场景
