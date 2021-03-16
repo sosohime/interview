@@ -165,6 +165,9 @@
     - 最近重新复习时发现，【看面经找知识点学习】这种方式有一个问题：零碎的知识靠自己这样看，很难形成体系。并且每个知识点可能只是为了解决一个问题，不够深入。然后发现了这本圣经，从头到尾一步到位。中文版有部分翻译不够准确，或者读起来比较别扭的部分，可以回去读原版[You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS)。
     - 如: 原型链、this、call、bind、new、闭包、Promise等常见必考题，都可以在这本书中找到答案。
     - 一篇简明易懂的原型链文章[一张图搞定JS原型&原型链](https://segmentfault.com/a/1190000021232132)
+  - JS基础<del>八股文</de>
+    - [隐式类型转换](https://blog.csdn.net/itcast_cn/article/details/82887895)
+    - 作用域提升
   - 问: 堆与栈
   - 问: new的过程发生了什么，手写一个new
   - 问: 手写bind、call、apply
