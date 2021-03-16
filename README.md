@@ -172,6 +172,7 @@
     - [JavaScript深入之bind的模拟实现](https://github.com/mqyqingfeng/Blog/issues/12)
   - 问: 原型和原型链
   - 问: ES5实现继承
+    - 各种继承的问题，手写个寄生组合式继承
   - 问: Set \ Map 区别，map \ {} 区别
   - 问: WeekSet \ WeekMap是干嘛的
   - 问: Symbol是什么，用途
@@ -244,7 +245,7 @@
   - 问: 防抖节流用hooks实现
     - TODO:
   - 问: react-router实现原理
-    - TODO:
+    - [「源码解析 」这一次彻底弄懂react-router路由原理](https://juejin.cn/post/6886290490640039943)
 
   - 问: redux中间件是什么，用过哪些
   - 问: redux-saga \ redux-thunk 是什么，区别是什么
