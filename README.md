@@ -276,7 +276,7 @@
 - 工程化
   - 问: Webpack生命周期
   - 问: Webpack中loader和plugin的区别是什么
-  - 问: 如何编写Webpack load和plugin
+  - 问: 如何编写Webpack load 和 plugin
     - [webpack 之 loader 和 plugin 简介](https://juejin.im/post/6844903489458405390)
   - 问: 常用的webpack loader、plugin
     - loader
