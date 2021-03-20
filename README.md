@@ -47,6 +47,7 @@
     - 问: 浏览器缓存规则
     - 问: 强缓存、弱缓存
       - [HTTP缓存——304与200 from cache](http://www.wclimb.site/2018/03/06/HTTP%E7%BC%93%E5%AD%98%E2%80%94%E2%80%94304%E4%B8%8E200-from-cache/)
+      - Pragma -> Cache-Control -> Expires 。[HTTP缓存控制小结](https://imweb.io/topic/5795dcb6fb312541492eda8c)
     - 问: HTTP2 相对 HTTP1.1 有哪些改动
       - 多路复用、首部压缩、服务端推送。相较于HTTP/1.1的文本方式，改为使用二进制帧(frame) + 流(stream)的方式，一次TCP握手可以同时并行多个请求和响应，然后再进行拼装组合
       - [HTTP/2 相比 1.0 有哪些重大改进？](https://www.zhihu.com/question/34074946)
