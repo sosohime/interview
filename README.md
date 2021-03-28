@@ -197,6 +197,7 @@
   - 问: infer
   - 问: implement
   - 问: Paramters \ ReturnType
+  - 问: unknow和any的区别[[译] TypeScript 3.0: unknown 类型](https://juejin.cn/post/6844903866073350151)
   - partial
   - 基础学习
   - 官方文档：<https://www.tslang.cn/docs/handbook/declaration-files/introduction.html>
