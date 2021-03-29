@@ -286,6 +286,7 @@
       - babel-loader + babel/preset-typescript \ ts-loader + babel-loader + fork-ts-checker-webpack-plugin [Webpack 转译 Typescript 现有方案](https://juejin.cn/post/6844904052094926855)
       - esbuild-loader
       - postcss-loader（添加浏览器前缀）
+      - cache-loader（）
     - plugin
       - html-webpack-plugin
       - optimize-css-assets-webpack-plugin \ css-minimizer-webpack-plugin （压缩优化css，后者使用cssnano）
