@@ -384,10 +384,11 @@
     - [聊一聊前端「同构」](https://juejin.cn/post/6844903616705232909)
     - [SSR 页面 CDN 缓存实践](https://juejin.cn/post/6847902220222988301)
   - 问: supervisor or pm2, why
-  - 问: `fork mode`和`cluster mode`的区别
+    - pm2 日志体积过大怎么办（pm2-logratate或者其他定期清理日志文件）
+    - pm2 `fork mode`和`cluster mode`的区别，怎么做多个进程监听同一个端口的
+    - pm2 异常重启，min_uptime、max_retarts
   - 问: express、koa
     - koa洋葱模型实现，为什么采用洋葱模型[深入理解洋葱模型中间件机制](https://juejin.cn/post/6844904025767280648)
-    - TODO:
 
   - 问: Redis数据结构，使用场景
     - string、list、hash、set和zset
