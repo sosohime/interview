@@ -16,7 +16,7 @@
     - 问: DNS
     - 问: DNS查询过程
     - 问: 资源就近访问的原理
-      - [关于DNS，前端所需要了解的](https://www.jianshu.com/p/fd5dbd146ec8)
+      - [关于DNS，前端所需要了解的](https://www.jianshu.com/p/fd5dbd146ec8)(重点是解析过程和负载均衡就近访问)
     - 优化
       - [DNS预解析(dns-prefetch)](https://www.jianshu.com/p/fd5dbd146ec8)
     - 延伸
