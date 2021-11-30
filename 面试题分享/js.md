@@ -55,6 +55,55 @@ add(1)(2)(3) // 6
 // animal.getType() // I am animal
 // animal.getName() // I don't konw
 
+// es5
+
+const Animal = function () {}
+
+Animal.prototype.getType = function () {
+  console.log('I am animal')
+}
+
+Animal.prototype.getName = function () {
+  console.log('I don\'t konw')
+}
+
+const Cat = function (name) {
+  this.name = name
+  this.getType = function () {
+    console.log('i am animal')
+  }
+  this.getName = function () {
+    console.log('My name is '+ this.name + ', memeda')
+  }
+}
+
+Cat.prototype = new Animal()
+
+// es6
+
+class Animal {
+  getType () {
+    console.log('I am animal')
+  }
+  getName () {
+    console.log('I don\'t konw')
+  }
+}
+
+class Cat extends Animal {
+  constructor (name) {
+    super()
+    this.name = name
+  }
+  getType () {
+    console.log('i am animal')
+  }
+  getName () {
+    console.log('My name is '+ this.name + ', memeda')
+  }
+}
+
+
 // var cat = new Cat('yaoyao')
 // cat.getType() // i am animal
 // cat.getName() // My name is yaoyao, memeda
@@ -70,6 +119,21 @@ var arr = [[1,2,[5,6]],[3,4]]
 function multToOneDimensionArray(array){}
 
 multToOneDimensionArray(arr) //[1, 2, 3, 4, 5, 6]
+
+const multToOneDimensionArray = (array = []) => {
+  const target = []
+  const f = (a) => {
+    for (const i of a) {
+      if (Array.isArray(i)) {
+        f(i)
+      } else {
+        target.push(i)
+      }
+    }
+  }
+  f(array)
+  return target.sort((a,b) => (a - b))
+}
 ```
 
 ```javascript
@@ -78,6 +142,14 @@ function getRandomArrayByInterval(start, end, n)
 
 getRandomArrayByInterval(6, 20, 5) // [6, 10, 12, 16, 17]
 // tip: getRandomArrayByInterval(6, 20, 100) // error
+
+const getRandomArrayByInterval = (start, end, n, result = new Set()) => {
+  if (end - start < n) { return console.log('error') }
+  const value = Math.floor(Math.random() * (end - start + 1)) + start
+  result.add(value)
+  if (result.size === n) { return [...result].sort((a,b) => (a - b)) }
+  return getRandomArrayByInterval(start, end, n, result)
+}
 ```
 
 ```javascript
